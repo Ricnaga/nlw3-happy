@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="pt_br">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
-    <link rel="icon" href="./public/images/logo-icon.png" />
+    <link rel="icon" href="/images/logo-icon.png" />
 
-    <link rel="stylesheet" href="./public/css/page-orphanages.css">
-    <link rel="stylesheet" href="./public/css/main.css">
-    <link rel="stylesheet" href="./public/css/animations.css">
+    <link rel="stylesheet" href="/css/page-orphanages.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/animations.css">
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
@@ -27,7 +27,7 @@
     <div id="page-orphanages">
       <aside class="animate-right">
         <header>
-          <img src="./public/images/map-marker.svg" alt="Happy">
+          <img src="/images/map-marker.svg" alt="Happy">
 
           <h2>Escolha um orfanato no mapa</h2>
 
@@ -42,12 +42,25 @@
       </aside>
 
       <div id="mapid" class="animate-appear"></div>
-        <a href="create-orphanage.html" title="Cadastre um orfanato" class="create-orphanage">
-          <img src="./public/images/plus.svg" alt="Criar orfanato">
+
+      <div class="orphanages">
+        {{#each orphanages}}
+          <span hidden
+          data-id="{{this.id}}" 
+          data-name="{{this.name}}" 
+          data-lat="{{this.lat}}" 
+          data-lng="{{this.lng}}">
+          </span>
+       {{/each}}
+      </div>
+
+
+        <a href="/create-orphanage" title="Cadastre um orfanato" class="create-orphanage">
+          <img src="/images/plus.svg" alt="Criar orfanato">
         </a>
-             
+         
     </div>
 
-    <script src="./public/scripts/page-orphanages.js"></script>
+    <script src="/scripts/page-orphanages.js"></script>
   </body>
 </html>
