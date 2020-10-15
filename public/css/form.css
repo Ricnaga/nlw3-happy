@@ -1,7 +1,7 @@
 form{
     width: 70rem;
 
-    margin: 6.4rem auto;/*verificar*/
+    margin: auto;
 
     background: white;
 
@@ -51,7 +51,7 @@ fieldset legend{
 
 .input-block label span{
     color: #8FA7B3;
-    line-height: 1.5rem;
+    line-height: 1.5;
     font-size: 1.4rem;
 
     margin-left: 2.4rem;
@@ -117,7 +117,7 @@ fieldset legend{
 .new-upload span{
     position: absolute;
     right: 12px;
-    bottom: 12px;
+    bottom: 14px;
 
     box-sizing: border-box;
 
