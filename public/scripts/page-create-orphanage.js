@@ -66,3 +66,12 @@ function toggleSelect(event){
 
     input.value = button.dataset.value
 }
+
+function validate(event){
+    //validar se lat e lng estão vazios
+    const needsLatAndLng = true;
+    if(needsLatAndLng){
+        event.prevenDefault()
+        alert('Selecione um ponto no mapa')
+    }
+}

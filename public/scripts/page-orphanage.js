@@ -5,8 +5,10 @@ const options = {
     scrollWheelZoom: false,
     zoomControl: false
 }
+const lat = document.querySelector('span[data-lat]').dataset.lat
+const lng = document.querySelector('span[data-lng]').dataset.lng
 
-var map = L.map('mapid', options).setView([-27.2125626,-49.6451208], 15);
+var map = L.map('mapid', options).setView([lat, lng], 15);
 
 L.tileLayer(
     'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',)
@@ -19,7 +21,9 @@ L.tileLayer(
         popupAnchor:[170, 2]
     })
 
-L.marker([-27.2114885,-49.6574402], {icon})
+
+
+L.marker([lat, lng], {icon})
 .addTo(map)
 
 function selectImage(event){

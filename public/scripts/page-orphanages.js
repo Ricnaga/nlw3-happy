@@ -10,6 +10,7 @@ L.tileLayer(
         iconAnchor: [29, 68],
         popupAnchor:[170, 2]
     })
+    
     function addMarker({id, name, lat, lng}){
         const popup = L.popup({
             closeButton: false,
