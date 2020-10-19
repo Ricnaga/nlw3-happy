@@ -10,7 +10,7 @@ module.exports = {
 
     async orphanage(req, res){
         const id = req.query.id
-
+        
         try {
             const db = await Database;
             const results = await db.all(`SELECT * FROM orphanages WHERE id=${id}`);
