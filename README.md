@@ -23,8 +23,8 @@ OBS:Todas as tecnologias e dependências serão instaladas via prompt de comando
 
 
 ### <div align="center">Express</div>
-Clone este repositório: git clone <https://github.com/Ricnaga/NLW> \
-Acesse o projeto: cd NLW \
+Clone este repositório: git clone <https://github.com/Ricnaga/NLW3> \
+Acesse o projeto: cd NLW3 \
 Inicie um projeto: npm init -y \
 Ainda na raíz será necessário entrar com o comando abaixo para instalar o [Express](https://expressjs.com/pt-br/starter/installing.html): \
 npm install express \
