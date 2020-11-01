@@ -14,33 +14,18 @@
    - [Licença](#Licença)
 <!--te-->
 ## <div align="center">Requisitos<div>
-Antes de começar é necessário instalar algumas ferramentas, tais como um editor de códigos para realizar compilação dos mesmos. Os códigos desse repositório foi utilizado o [Visual Studio Code](https://code.visualstudio.com/), [NodeJS](https://nodejs.org/en/) e [Git Bash](https://gitforwindows.org/). Após instalados, no prompt de comando será necessário instalar as seguintes dependências.\
-OBS:Todas as tecnologias e dependências serão instaladas via prompt de comando (bash ou cmd) e todas foram instaladas a partir da pasta raíz do repositório.
-- [Express.js](#express)
-- [Nodemon](#nodemon)
-- [handlebars - HBS](#HBS)
-- [Sqlite-async](#sqlite-async)
+Antes de começar é necessário instalar algumas ferramentas, tais como um editor de códigos para realizar compilação dos mesmos. Os códigos desse repositório foi utilizado o [Visual Studio Code](https://code.visualstudio.com/), [NodeJS](https://nodejs.org/en/) e [Git Bash](https://gitforwindows.org/). Após instalados, será necessário instalar o também o [Yarn](https://yarnpkg.com/) para que seja possível automatizar as instalações de todas as dependências que foram usadas nessa aplicação.
 
+No terminal, realize a clonagem do repositório.\
+$ git clone <https://github.com/Ricnaga/NLW3> \
+Acesse o projeto.\
+$ cd NLW3 \
+Execute o comando yarn para reaver todos as dependências instaladas dessa aplicação.
 
-### <div align="center">Express</div>
-Clone este repositório: git clone <https://github.com/Ricnaga/NLW3> \
-Acesse o projeto: cd NLW3 \
-Inicie um projeto: npm init -y \
-Ainda na raíz será necessário entrar com o comando abaixo para instalar o [Express](https://expressjs.com/pt-br/starter/installing.html): \
-npm install express \
-
-### <div align="center">Nodemon</div>
-Após instalado o Express, é necessário instalar o monitorador [Nodemon](https://nodemon.io/): \
-npm install nodemon -D \
-
-### <div align="center">HBS</div>
-Instale o [handlebars - HBS](https://handlebarsjs.com/): npm install hbs
-
-### <div align="center">Sqlite-async</div>
-Instale o banco de dados [Sqlite](https://www.nodenpm.com/sqlite-async/package.html): npm install sqlite-async \
 Para esse evento é necessário ter alguma base ja guardado no banco de dados, para tal feito, executar o comando abaixo. \
- node src/database/test.js \
-Feito todos os passo, é hra de iniciar a aplicação: npm start \
+$ node src/database/test.js \
+Feito todos os passos, é hora de iniciar a aplicação:\
+$ yarn start \
 Iniciado cada aplicação, abra qualquer navegador e digite http://localhost:5500 \
 
 ## <div align="center">Tecnologias utilizadas<div>
@@ -48,6 +33,7 @@ Iniciado cada aplicação, abra qualquer navegador e digite http://localhost:550
 - [CSS](https://www.w3.org/Style/CSS/)
 - [NodeJS](https://nodejs.org/en/)
 - [Git Bash](https://gitforwindows.org/)
+- [Yarn](https://yarnpkg.com/getting-started/install)
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [ECMAscript](https://www.ecma-international.org/publications/standards/Standard.htm)
 - [Express](https://expressjs.com/pt-br/starter/installing.html)
