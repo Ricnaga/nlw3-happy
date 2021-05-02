@@ -1,9 +1,4 @@
-<img src="img1.jpg"  style="width:50vw; height:30vh; display:flex; align-items:center; justify-content:center; margin:auto"/>
-
-<div class="header-img" style="margin:auto; width:50vw; height:30vh; display:flex; align-items:center; justify-content:space-around; padding: 1rem 1.2rem ">
-<img src="img2.jpg" alt="Escolher um orfanato" style="width:100%; height:100%; margin-right:1rem" />
-<img src="img3.jpg" alt="Preencha o formulário" style="width:100%, height:100%" />
-</div>
+<img src="img1.jpg" alt="Capa"/>
 
 ![GitHub](https://img.shields.io/github/license/Ricnaga/NLW)
 # <div align="center"> NLW3 Discovery | Happy </div>
