@@ -3,6 +3,7 @@ const path = require('path');
 const pages = require('./pages')
 
 const server = express()
+const PORT = 3000
 
 server
 .use(express.urlencoded({extended: true}))
@@ -17,4 +18,4 @@ server
 .get('/create-orphanage', pages.createOrphanage)
 .post('/save-orphanage', pages.saveOrphanage)
 
-server.listen(5500)
+server.listen(PORT, console.log(`happy is being watched on port:${PORT} - Quis custodiet ipsos custodes?`))

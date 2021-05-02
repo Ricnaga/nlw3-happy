@@ -1,6 +1,6 @@
 {
-  "name": "NLW",
-  "version": "1.0.0",
+  "name": "NLWHappy",
+  "version": "1.0.1",
   "description": "Workshop desenvolvido durante a semna NextLevelWeek 3 da RocketSeat",
   "main": "index.js",
   "scripts": {
