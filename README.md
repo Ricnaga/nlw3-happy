@@ -1,6 +1,6 @@
 <img src="img1.jpg" alt="Capa"/>
 
-![GitHub](https://img.shields.io/github/license/Ricnaga/NLW)
+![GitHub](https://img.shields.io/github/license/Ricnaga/NLW3-Happy)
 # <div align="center"> NLW3 Discovery | Happy </div>
 #### <div align="right">- Projeto Finalizado <div>
 
