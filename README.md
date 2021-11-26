@@ -27,10 +27,10 @@ Para executar a aplicação é necessário instalar algumas ferramentas tais com
 
 ```bash
 # Baixe o repositório.
-$ git clone https://github.com/Ricnaga/NLW3-Happy.git
+$ git clone https://github.com/Ricnaga/nlw3-happy.git
 
 # Acesse a pasta do projeto.
-$ cd NLW3-Happy
+$ cd nlw3-happy
 
 # Agora que baixou e acessou o repositório, vamos começar a instalação das dependências.
 $ yarn ( caso não utilize o yarn execute apenas npm -i)
